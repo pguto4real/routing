@@ -5,9 +5,11 @@ const Product = () => {
   return (
     <>
     <h1>Product Page</h1>
-    <p>
-        Go to <Link to="/">home pages</Link>
-      </p>
+    <ul>
+        <li>Product</li>
+        <li>Product</li>
+        <li>Product</li>
+    </ul>
     </>
   )
 }
