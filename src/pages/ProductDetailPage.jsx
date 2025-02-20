@@ -6,7 +6,7 @@ const ProductDetailPage = () => {
 
   return (
     <>
-      <div>ProductDetailPage</div>
+      <h1>ProductDetailPage</h1>
       <p>{params.productId}</p>
     </>
   );
