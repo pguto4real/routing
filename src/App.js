@@ -24,13 +24,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-// const routeDefinitions = createRoutesFromElements(
-//   <Route>
-//     <Route path="/" element={<Home />}></Route>
-//     <Route path="/products" element={<Product />}></Route>
-//   </Route>
-// );
-// const router = createBrowserRouter(routeDefinitions)
 function App() {
   return <RouterProvider router={router} />;
 }
